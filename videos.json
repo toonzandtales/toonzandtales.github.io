@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T13:45:52.119Z",
+  "updated": "2026-11-25T15:20:47.771Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -79,6 +79,13 @@
           "title": "The Great Puddle Flood",
           "id": "o8t3OgO5hTk",
           "at": "2026-12-11T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-25T15:15:53.430Z",
+          "n": 4,
+          "title": "Biscuit's Lost Carrots",
+          "id": "JD1Y1QCQhE8",
+          "at": "2026-12-18T06:00:00.000Z"
         }
       ]
     }
