@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T17:06:17.421Z",
+  "updated": "2026-11-25T19:09:19.228Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -93,6 +93,13 @@
           "title": "Stuck in the Slide",
           "id": "JOqmZbG6F6w",
           "at": "2026-12-25T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-25T18:57:53.210Z",
+          "n": 6,
+          "title": "The Wobbly Bridge",
+          "id": "GDl3bzOwZBI",
+          "at": "2027-01-01T06:00:00.000Z"
         }
       ]
     }
