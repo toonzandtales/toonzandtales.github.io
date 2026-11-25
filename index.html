@@ -71,8 +71,8 @@
 <div class="wrap">
   <nav aria-label="Sections">
     <a href="#musicals">Musicals</a>
-    <a href="#songs">Full songs</a>
-    <a href="#shorts">Shorts</a>
+    <a href="/songs/">Full songs</a>
+    <a href="/shorts/">Shorts</a>
     <a href="#crew">The crew</a>
     <a href="#grownups">For grown-ups</a>
   </nav>
@@ -121,6 +121,7 @@
   </main>
   <aside id="songs" aria-label="Full songs">
     <h2>Full songs</h2>
+    <p style="margin:0 0 8px"><a href="/songs/">See all songs</a></p>
     <input id="search" type="search" placeholder="Search songs" aria-label="Search songs" style="width:100%;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1rem">
     <div class="grid" id="songGrid" style="margin-top:14px"></div>
     <p><button class="btn alt" id="moreSongs" hidden style="border:0;cursor:pointer">Show more songs</button></p>
@@ -128,11 +129,12 @@
   </aside>
   <aside id="shorts" aria-label="Shorts">
     <h2>Shorts</h2>
+    <p style="margin:0 0 8px"><a href="/shorts/">See all Shorts</a></p>
     <div class="grid" id="shortGrid"></div>
     <p class="empty" id="shortEmpty" hidden>Short clips are coming soon.</p>
   </aside>
 </div>
-          <!--STATIC-INDEX-->
+            <!--STATIC-INDEX-->
 <div id="static-index"><h2>All videos</h2><h3>Wobble Town Rescue Crew</h3><p>Every Friday the crew helps someone in Wobble Town, and a mystery knot keeps turning up. Who is tying them? Watch in order!</p><ol></ol><h3>Songs</h3><ul><li><a href="https://www.youtube.com/watch?v=O6t5YRpxV4g">Big Tom's Tasty Morning Mix</a></li><li><a href="https://www.youtube.com/watch?v=dH3qv6Fz60w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Ny1HU6Z0jtk">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=t1vUrQsjlvI">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=-ytxK56r62A">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=LEQ7MlkByX8">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=3wJ2c8BfStg">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=DzsxuQw3p8Q">Zuzu's Sky Swim</a></li></ul><h3>Shorts</h3><ul><li><a href="https://www.youtube.com/watch?v=U56f0s_wBjw">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=TzFqGktpkzI">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=INZGyprFcrI">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=GIYrZ2pEJ_w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Dga81PP4SZY">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=ZYbr4voJUFg">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=wjUPsBioOWI">Zuzu's Sky Swim</a></li><li><a href="https://www.youtube.com/watch?v=_QBNHRAqLg0">Big Tom's Tasty Morning Mix</a></li></ul><p><a href="https://www.youtube.com/@ToonzAndTales">Toonz and Tales on YouTube</a></p></div>
 <!--/STATIC-INDEX-->
   <footer>&copy; 2026 Toonz and Tales</footer>
@@ -152,7 +154,7 @@
     (m.episodes||[]).forEach(function(e){ made[e.n]=e; });
     var sec=el("div"); sec.id=m.slug;
     sec.appendChild(el("h2",null,m.name));
-    sec.appendChild(el("p",null,m.blurb));
+    sec.appendChild(el("p",null,m.blurb)); var pl=el("p"); var pa=el("a",null,"Open the "+m.name+" page"); pa.href="/"+m.slug+"/"; pl.appendChild(pa); sec.appendChild(pl);
     var grid=el("div","grid"); sec.appendChild(grid);
     var total=Math.max(m.planned.length, (m.episodes||[]).length);
     for(var n=1;n<=total;n++){
