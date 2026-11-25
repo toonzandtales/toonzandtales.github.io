@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:56:50.925Z",
+  "updated": "2026-11-25T10:58:26.259Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -20,6 +20,41 @@
         "The Big Storm Dash",
         "Who Ties the Knots?",
         "The Welcome Party"
+      ],
+      "groupImage": "fizzle-and-friends",
+      "cast": [
+        {
+          "name": "Fizzle",
+          "image": "fizzle-penguin",
+          "from": 1,
+          "look": "a small round penguin with a soft blue-grey back and cream belly, a teal knitted beanie with a white pom-pom and a soft orange and cream striped scarf",
+          "role": "the wobbly leader of the crew, who always waddles in to help"
+        },
+        {
+          "name": "Tammy",
+          "from": 1,
+          "look": "a cheeky little brown monkey with big round ears and a curly tail",
+          "role": "quick and bendy, Tammy swings and stretches to reach whatever is stuck"
+        },
+        {
+          "name": "Biscuit",
+          "from": 1,
+          "look": "a little pink bunny with long floppy ears",
+          "role": "Biscuit hops fast and spots the clues, like the mystery knots"
+        },
+        {
+          "name": "Duckie",
+          "from": 1,
+          "look": "a cheerful yellow duckling with a small orange beak",
+          "role": "Duckie paddles, flaps and zooms ahead to help first"
+        },
+        {
+          "name": "Tilly the Tugboat",
+          "image": "tilly-the-tugboat",
+          "from": 3,
+          "look": "a small chubby orange-and-teal wooden tugboat with big friendly eyes, a pink flower on her bow and a short striped yellow funnel",
+          "role": "a guest rescuer who sails to every water emergency with a deep, friendly toot"
+        }
       ],
       "episodes": [
         {
@@ -43,42 +78,50 @@
     {
       "title": "Big Tom's Tasty Morning Mix",
       "id": "O6t5YRpxV4g",
-      "date": "2026-11-22T18:20:29.760Z"
+      "date": "2026-11-22T18:20:29.760Z",
+      "key": "08-big-tom-s-the-bear"
     },
     {
       "title": "Bramble's Cozy Sunday Stew",
       "id": "dH3qv6Fz60w",
-      "date": "2026-11-22T08:47:10.599Z"
+      "date": "2026-11-22T08:47:10.599Z",
+      "key": "02-grandpa-bramble"
     },
     {
       "title": "Marmalade's Parisian Day",
       "id": "Ny1HU6Z0jtk",
-      "date": "2026-11-22T04:47:27.176Z"
+      "date": "2026-11-22T04:47:27.176Z",
+      "key": "12-madame-marmalade"
     },
     {
       "title": "Mina's Stardust Count",
       "id": "t1vUrQsjlvI",
-      "date": "2026-11-22T14:58:28.505Z"
+      "date": "2026-11-22T14:58:28.505Z",
+      "key": "05-mina-moonbeam"
     },
     {
       "title": "Pip's Big Splash Day",
       "id": "-ytxK56r62A",
-      "date": "2026-11-22T04:47:18.398Z"
+      "date": "2026-11-22T04:47:18.398Z",
+      "key": "01-pip-the-puddle-frog"
     },
     {
       "title": "Polite Paws and Roar",
       "id": "LEQ7MlkByX8",
-      "date": "2026-11-22T12:16:39.323Z"
+      "date": "2026-11-22T12:16:39.323Z",
+      "key": "09-dottie-dino"
     },
     {
       "title": "The Sofa Scavenger Shanty",
       "id": "3wJ2c8BfStg",
-      "date": "2026-11-22T04:47:34.574Z"
+      "date": "2026-11-22T04:47:34.574Z",
+      "key": "04-captain-biscuit"
     },
     {
       "title": "Zuzu's Sky Swim",
       "id": "DzsxuQw3p8Q",
-      "date": "2026-11-22T16:33:25.441Z"
+      "date": "2026-11-22T16:33:25.441Z",
+      "key": "03-zuzu-the-star-whale"
     }
   ],
   "shorts": [
