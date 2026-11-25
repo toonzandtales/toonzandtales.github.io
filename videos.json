@@ -1,0 +1,108 @@
+{
+  "updated": "2026-11-25T10:33:35.792Z",
+  "musicals": [
+    {
+      "slug": "wobble-town",
+      "name": "Wobble Town Rescue Crew",
+      "blurb": "Every Friday the crew helps someone in Wobble Town, and a mystery knot keeps turning up. Who is tying them? Watch in order!",
+      "keyPattern": "^\\d+-wobble-town-ep(\\d+)$",
+      "firstRelease": "2026-11-27T06:00:00Z",
+      "intervalDays": 7,
+      "titlePrefix": "Wobble Town Rescue Crew, Ep \\d+:\\s*",
+      "planned": [
+        "The Runaway Cake",
+        "Kite in the Clock Tower",
+        "The Great Puddle Flood",
+        "Biscuit's Lost Carrots",
+        "Stuck in the Slide",
+        "The Wobbly Bridge",
+        "Night of the Missing Lanterns",
+        "The Big Storm Dash",
+        "Who Ties the Knots?",
+        "The Welcome Party"
+      ],
+      "episodes": [
+        {
+          "n": 1,
+          "title": "The Runaway Cake",
+          "id": "CPR_nVhjciA",
+          "at": "2026-11-27T06:00:00.000Z"
+        },
+        {
+          "n": 2,
+          "title": "Kite in the Clock Tower",
+          "id": "EFDD4lKEcRw",
+          "at": "2026-12-04T06:00:00.000Z"
+        }
+      ]
+    }
+  ],
+  "songs": [
+    {
+      "title": "Big Tom's Tasty Morning Mix",
+      "id": "O6t5YRpxV4g"
+    },
+    {
+      "title": "Bramble's Cozy Sunday Stew",
+      "id": "dH3qv6Fz60w"
+    },
+    {
+      "title": "Marmalade's Parisian Day",
+      "id": "Ny1HU6Z0jtk"
+    },
+    {
+      "title": "Mina's Stardust Count",
+      "id": "t1vUrQsjlvI"
+    },
+    {
+      "title": "Pip's Big Splash Day",
+      "id": "-ytxK56r62A"
+    },
+    {
+      "title": "Polite Paws and Roar",
+      "id": "LEQ7MlkByX8"
+    },
+    {
+      "title": "The Sofa Scavenger Shanty",
+      "id": "3wJ2c8BfStg"
+    },
+    {
+      "title": "Zuzu's Sky Swim",
+      "id": "DzsxuQw3p8Q"
+    }
+  ],
+  "shorts": [
+    {
+      "title": "Pip's Big Splash Day",
+      "id": "U56f0s_wBjw"
+    },
+    {
+      "title": "Marmalade's Parisian Day",
+      "id": "TzFqGktpkzI"
+    },
+    {
+      "title": "The Sofa Scavenger Shanty",
+      "id": "INZGyprFcrI"
+    },
+    {
+      "title": "Bramble's Cozy Sunday Stew",
+      "id": "GIYrZ2pEJ_w"
+    },
+    {
+      "title": "Polite Paws and Roar",
+      "id": "Dga81PP4SZY"
+    },
+    {
+      "title": "Mina's Stardust Count",
+      "id": "ZYbr4voJUFg"
+    },
+    {
+      "title": "Zuzu's Sky Swim",
+      "id": "wjUPsBioOWI"
+    },
+    {
+      "title": "Big Tom's Tasty Morning Mix",
+      "id": "_QBNHRAqLg0"
+    }
+  ]
+}
