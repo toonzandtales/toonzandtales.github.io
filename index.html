@@ -14,7 +14,21 @@
   *{box-sizing:border-box}
   body{margin:0;font-family:"Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.5}
   a{color:var(--accent2)}
-  .wrap{max-width:1000px;margin:0 auto;padding:0 16px}
+  .wrap{max-width:1500px;margin:0 auto;padding:0 16px}
+  .layout{display:grid;gap:24px;grid-template-columns:minmax(0,1fr);grid-template-areas:"main" "songs" "shorts"}
+  .layout>main{grid-area:main;min-width:0}
+  .layout>#songs{grid-area:songs}
+  .layout>#shorts{grid-area:shorts}
+  @media (min-width:1100px){
+    .layout{grid-template-columns:230px minmax(0,1fr) 300px;grid-template-areas:"shorts main songs"}
+    .layout>aside{position:sticky;top:12px;align-self:start;max-height:calc(100vh - 24px);overflow:auto;padding-right:6px}
+  }
+  aside h2{margin:6px 0 10px;font-size:1.3rem}
+  aside .grid{grid-template-columns:1fr;gap:12px}
+  aside .card{margin:0;padding:12px}
+  #shorts .thumb{padding-top:120%}
+  #songs .thumb{padding-top:56.25%}
+  @media (min-width:700px) and (max-width:1099px){aside .grid{grid-template-columns:repeat(auto-fill,minmax(200px,1fr))}}
   nav{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;padding:14px 0;font-weight:600}
   nav a{text-decoration:none}
   header{padding:18px 0 10px;text-align:center}
@@ -54,7 +68,7 @@
 <div class="wrap">
   <nav aria-label="Sections">
     <a href="#musicals">Musicals</a>
-    <a href="#songs">Songs</a>
+    <a href="#songs">Full songs</a>
     <a href="#shorts">Shorts</a>
     <a href="#crew">The crew</a>
     <a href="#grownups">For grown-ups</a>
@@ -77,21 +91,13 @@
     </div>
   </section>
 
+  <div class="layout">
+  <main>
   <section id="musicals"></section>
 
-  <section id="songs">
-    <h2>All songs</h2>
-    <input id="search" type="search" placeholder="Search songs" aria-label="Search songs" style="width:100%;max-width:360px;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1rem">
-    <div class="grid" id="songGrid" style="margin-top:14px"></div>
-    <p><button class="btn alt" id="moreSongs" hidden style="border:0;cursor:pointer">Show more songs</button></p>
-    <p class="empty" id="songEmpty" hidden>New songs are on the way.</p>
-  </section>
+  
 
-  <section id="shorts">
-    <h2>Shorts</h2>
-    <div class="grid" id="shortGrid"></div>
-    <p class="empty" id="shortEmpty" hidden>Short clips are coming soon.</p>
-  </section>
+  
 
   <section id="crew" class="card">
     <h2 style="margin-top:0">Meet the crew</h2>
@@ -108,7 +114,22 @@
     <p>Original songs and characters for toddlers and preschoolers, made by Toonz and Tales. This page has no ads, no sign-ups and no tracking. Embedded videos play from YouTube in its privacy-enhanced mode, and thumbnails load from YouTube.</p>
   </section>
 
-  <!--STATIC-INDEX-->
+  
+  </main>
+  <aside id="songs" aria-label="Full songs">
+    <h2>Full songs</h2>
+    <input id="search" type="search" placeholder="Search songs" aria-label="Search songs" style="width:100%;padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--ink);font-size:1rem">
+    <div class="grid" id="songGrid" style="margin-top:14px"></div>
+    <p><button class="btn alt" id="moreSongs" hidden style="border:0;cursor:pointer">Show more songs</button></p>
+    <p class="empty" id="songEmpty" hidden>New songs are on the way.</p>
+  </aside>
+  <aside id="shorts" aria-label="Shorts">
+    <h2>Shorts</h2>
+    <div class="grid" id="shortGrid"></div>
+    <p class="empty" id="shortEmpty" hidden>Short clips are coming soon.</p>
+  </aside>
+</div>
+    <!--STATIC-INDEX-->
 <div id="static-index"><h2>All videos</h2><h3>Wobble Town Rescue Crew</h3><p>Every Friday the crew helps someone in Wobble Town, and a mystery knot keeps turning up. Who is tying them? Watch in order!</p><ol></ol><h3>Songs</h3><ul><li><a href="https://www.youtube.com/watch?v=O6t5YRpxV4g">Big Tom's Tasty Morning Mix</a></li><li><a href="https://www.youtube.com/watch?v=dH3qv6Fz60w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Ny1HU6Z0jtk">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=t1vUrQsjlvI">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=-ytxK56r62A">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=LEQ7MlkByX8">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=3wJ2c8BfStg">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=DzsxuQw3p8Q">Zuzu's Sky Swim</a></li></ul><h3>Shorts</h3><ul><li><a href="https://www.youtube.com/watch?v=U56f0s_wBjw">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=TzFqGktpkzI">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=INZGyprFcrI">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=GIYrZ2pEJ_w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Dga81PP4SZY">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=ZYbr4voJUFg">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=wjUPsBioOWI">Zuzu's Sky Swim</a></li><li><a href="https://www.youtube.com/watch?v=_QBNHRAqLg0">Big Tom's Tasty Morning Mix</a></li></ul><p><a href="https://www.youtube.com/@ToonzAndTales">Toonz and Tales on YouTube</a></p></div>
 <!--/STATIC-INDEX-->
   <footer>&copy; 2026 Toonz and Tales</footer>
