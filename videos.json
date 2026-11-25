@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T11:57:04.930Z",
+  "updated": "2026-11-25T13:45:52.119Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -72,6 +72,13 @@
           "title": "Kite in the Clock Tower",
           "id": "EFDD4lKEcRw",
           "at": "2026-12-04T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-25T13:39:44.914Z",
+          "n": 3,
+          "title": "The Great Puddle Flood",
+          "id": "o8t3OgO5hTk",
+          "at": "2026-12-11T06:00:00.000Z"
         }
       ]
     }
