@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T19:09:19.228Z",
+  "updated": "2026-11-25T20:44:35.578Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -100,6 +100,13 @@
           "title": "The Wobbly Bridge",
           "id": "GDl3bzOwZBI",
           "at": "2027-01-01T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-25T20:38:36.134Z",
+          "n": 7,
+          "title": "Night of the Missing Lanterns",
+          "id": "JFFq_adfF-s",
+          "at": "2027-01-08T06:00:00.000Z"
         }
       ]
     }
