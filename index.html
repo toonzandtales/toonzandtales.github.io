@@ -23,6 +23,8 @@
     .layout{grid-template-columns:230px minmax(0,1fr) 300px;grid-template-areas:"shorts main songs"}
     .layout>aside{position:sticky;top:64px;align-self:start;max-height:calc(100vh - 76px);overflow:auto;padding-right:6px}
   }
+  @keyframes flash{0%{box-shadow:0 0 0 0 var(--accent)}30%{box-shadow:0 0 0 6px var(--accent)}100%{box-shadow:0 0 0 0 transparent}}
+  aside.flash{animation:flash 1.4s ease-out;border-radius:16px}
   aside h2{margin:6px 0 10px;font-size:1.3rem}
   aside .grid{grid-template-columns:1fr;gap:12px}
   aside .card{margin:0;padding:12px}
@@ -130,7 +132,7 @@
     <p class="empty" id="shortEmpty" hidden>Short clips are coming soon.</p>
   </aside>
 </div>
-        <!--STATIC-INDEX-->
+          <!--STATIC-INDEX-->
 <div id="static-index"><h2>All videos</h2><h3>Wobble Town Rescue Crew</h3><p>Every Friday the crew helps someone in Wobble Town, and a mystery knot keeps turning up. Who is tying them? Watch in order!</p><ol></ol><h3>Songs</h3><ul><li><a href="https://www.youtube.com/watch?v=O6t5YRpxV4g">Big Tom's Tasty Morning Mix</a></li><li><a href="https://www.youtube.com/watch?v=dH3qv6Fz60w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Ny1HU6Z0jtk">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=t1vUrQsjlvI">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=-ytxK56r62A">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=LEQ7MlkByX8">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=3wJ2c8BfStg">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=DzsxuQw3p8Q">Zuzu's Sky Swim</a></li></ul><h3>Shorts</h3><ul><li><a href="https://www.youtube.com/watch?v=U56f0s_wBjw">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=TzFqGktpkzI">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=INZGyprFcrI">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=GIYrZ2pEJ_w">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Dga81PP4SZY">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=ZYbr4voJUFg">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=wjUPsBioOWI">Zuzu's Sky Swim</a></li><li><a href="https://www.youtube.com/watch?v=_QBNHRAqLg0">Big Tom's Tasty Morning Mix</a></li></ul><p><a href="https://www.youtube.com/@ToonzAndTales">Toonz and Tales on YouTube</a></p></div>
 <!--/STATIC-INDEX-->
   <footer>&copy; 2026 Toonz and Tales</footer>
@@ -209,6 +211,21 @@
     shortsGrid(data.shorts||[]);
     startCount();
   });
+
+  // Nav links: on wide screens Shorts and Full songs are side columns that are already on screen,
+  // so scroll the page to the top, reset the column to its first item, and flash it so the click is visible.
+  document.querySelectorAll('nav a[href^="#"]').forEach(function(a){
+    a.addEventListener("click",function(ev){
+      var t=document.querySelector(a.getAttribute("href"));
+      if(!t || t.tagName!=="ASIDE" || !window.matchMedia("(min-width:1100px)").matches) return;
+      ev.preventDefault();
+      window.scrollTo({top:0,behavior:"smooth"});
+      t.scrollTo({top:0,behavior:"smooth"});
+      t.classList.remove("flash"); void t.offsetWidth; t.classList.add("flash");
+      if(t.id==="songs"){ var q=document.getElementById("search"); if(q) q.focus({preventScroll:true}); }
+    });
+  });
+  var navClicks=true;
 </script>
 </body>
 </html>
