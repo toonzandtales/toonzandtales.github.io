@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T15:20:47.771Z",
+  "updated": "2026-11-25T17:06:17.421Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -86,6 +86,13 @@
           "title": "Biscuit's Lost Carrots",
           "id": "JD1Y1QCQhE8",
           "at": "2026-12-18T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-25T17:01:57.436Z",
+          "n": 5,
+          "title": "Stuck in the Slide",
+          "id": "JOqmZbG6F6w",
+          "at": "2026-12-25T06:00:00.000Z"
         }
       ]
     }
