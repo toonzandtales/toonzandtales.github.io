@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T10:33:35.792Z",
+  "updated": "2026-11-25T10:35:36.118Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -23,12 +23,14 @@
       ],
       "episodes": [
         {
+          "date": "2026-11-25T05:24:04.657Z",
           "n": 1,
           "title": "The Runaway Cake",
           "id": "CPR_nVhjciA",
           "at": "2026-11-27T06:00:00.000Z"
         },
         {
+          "date": "2026-11-25T07:58:04.552Z",
           "n": 2,
           "title": "Kite in the Clock Tower",
           "id": "EFDD4lKEcRw",
@@ -40,35 +42,43 @@
   "songs": [
     {
       "title": "Big Tom's Tasty Morning Mix",
-      "id": "O6t5YRpxV4g"
+      "id": "O6t5YRpxV4g",
+      "date": "2026-11-22T18:20:29.760Z"
     },
     {
       "title": "Bramble's Cozy Sunday Stew",
-      "id": "dH3qv6Fz60w"
+      "id": "dH3qv6Fz60w",
+      "date": "2026-11-22T08:47:10.599Z"
     },
     {
       "title": "Marmalade's Parisian Day",
-      "id": "Ny1HU6Z0jtk"
+      "id": "Ny1HU6Z0jtk",
+      "date": "2026-11-22T04:47:27.176Z"
     },
     {
       "title": "Mina's Stardust Count",
-      "id": "t1vUrQsjlvI"
+      "id": "t1vUrQsjlvI",
+      "date": "2026-11-22T14:58:28.505Z"
     },
     {
       "title": "Pip's Big Splash Day",
-      "id": "-ytxK56r62A"
+      "id": "-ytxK56r62A",
+      "date": "2026-11-22T04:47:18.398Z"
     },
     {
       "title": "Polite Paws and Roar",
-      "id": "LEQ7MlkByX8"
+      "id": "LEQ7MlkByX8",
+      "date": "2026-11-22T12:16:39.323Z"
     },
     {
       "title": "The Sofa Scavenger Shanty",
-      "id": "3wJ2c8BfStg"
+      "id": "3wJ2c8BfStg",
+      "date": "2026-11-22T04:47:34.574Z"
     },
     {
       "title": "Zuzu's Sky Swim",
-      "id": "DzsxuQw3p8Q"
+      "id": "DzsxuQw3p8Q",
+      "date": "2026-11-22T16:33:25.441Z"
     }
   ],
   "shorts": [
