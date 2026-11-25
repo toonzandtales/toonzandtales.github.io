@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T11:25:58.836Z",
+  "updated": "2026-11-25T11:55:10.147Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -56,6 +56,8 @@
           "role": "a guest rescuer who sails to every water emergency with a deep, friendly toot"
         }
       ],
+      "featured": true,
+      "subtitle": "The Musical Series",
       "episodes": [
         {
           "date": "2026-11-25T05:24:04.657Z",

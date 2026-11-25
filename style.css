@@ -24,6 +24,11 @@
   html{scroll-padding-top:64px;scroll-behavior:smooth}
   nav{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;padding:14px 0;font-weight:600;position:sticky;top:0;z-index:50;background:var(--bg);box-shadow:0 0 0 100vmax var(--bg);clip-path:inset(0 -100vmax);border-bottom:1px solid var(--line)}
   nav a{text-decoration:none}
+  nav{align-items:center}
+  nav .brand{display:flex;align-items:center;margin-right:10px}
+  nav .brand img{height:46px;width:auto;display:block}
+  .kicker{margin:0 0 4px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.95rem;opacity:.8}
+  .series{margin:0 0 10px;font-size:clamp(1.2rem,3.4vw,1.8rem);font-weight:800;color:var(--accent2)}
   header{padding:18px 0 10px;text-align:center}
   h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 8px}
   .tag{font-size:1.15rem;opacity:.85;margin:0}

@@ -8,6 +8,7 @@
 <meta property="og:title" content="Toonz and Tales">
 <meta property="og:description" content="A new Wobble Town story-song every Friday at 5 pm Melbourne time.">
 <meta property="og:image" content="crew.jpg">
+<link rel="icon" type="image/png" href="/favicon.png">
 <style>
   :root{--bg:#fff8e8;--ink:#2a2a40;--card:#ffffff;--accent:#e5484d;--accent2:#2f6fe0;--soft:#ffe8b0;--line:#f0dfb6}
   @media (prefers-color-scheme:dark){:root{--bg:#1c1b2e;--ink:#f5f1e6;--card:#2a2942;--soft:#3a3860;--line:#3a3860;--accent:#ff6b6b;--accent2:#6aa0ff}}
@@ -34,6 +35,11 @@
   html{scroll-padding-top:64px;scroll-behavior:smooth}
   nav{display:flex;gap:16px;flex-wrap:wrap;justify-content:center;padding:14px 0;font-weight:600;position:sticky;top:0;z-index:50;background:var(--bg);box-shadow:0 0 0 100vmax var(--bg);clip-path:inset(0 -100vmax);border-bottom:1px solid var(--line)}
   nav a{text-decoration:none}
+  nav{align-items:center}
+  nav .brand{display:flex;align-items:center;margin-right:10px}
+  nav .brand img{height:46px;width:auto;display:block}
+  .kicker{margin:0 0 4px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:.95rem;opacity:.8}
+  .series{margin:0 0 10px;font-size:clamp(1.2rem,3.4vw,1.8rem);font-weight:800;color:var(--accent2)}
   header{padding:18px 0 10px;text-align:center}
   h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 8px}
   .tag{font-size:1.15rem;opacity:.85;margin:0}
@@ -56,6 +62,7 @@
   .empty{opacity:.7}
   footer{text-align:center;opacity:.75;font-size:.9rem;padding:30px 0 40px}
 </style>
+
 <!--SEO-HEAD-->
 <link rel="canonical" href="https://toonzandtales.github.io/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-video-preview:-1">
@@ -70,6 +77,7 @@
 <body>
 <div class="wrap">
   <nav aria-label="Sections">
+    <a class="brand" href="/" aria-label="Toonz and Tales home"><img src="/logo.png" alt="Toonz and Tales"></a>
     <a href="#musicals">Musicals</a>
     <a href="/songs/">Full songs</a>
     <a href="/shorts/">Shorts</a>
@@ -82,8 +90,10 @@
   <div class="layout">
   <main>
   <header>
-    <h1>Toonz and Tales</h1>
-    <p class="tag">Sing-along songs and story-songs for little ones. New adventures every Friday!</p>
+    <p class="kicker">Toonz and Tales presents</p>
+    <h1 id="seriesName">Wobble Town Rescue Crew</h1>
+    <p class="series" id="seriesSub">The Musical Series</p>
+    <p class="tag">A new story-song every Friday at 5 pm Melbourne time. Sing along, clap and wobble!</p>
   </header>
 
   <div class="hero"><img src="crew.jpg" alt="Fizzle the penguin, Tammy the monkey, Biscuit the bunny and Duckie the duckling"></div>
@@ -136,7 +146,8 @@
     <p class="empty" id="shortEmpty" hidden>Short clips are coming soon.</p>
   </aside>
 </div>
-                              <!--STATIC-INDEX-->
+                              
+  <!--STATIC-INDEX-->
 <div id="static-index"><h2>All videos</h2><h3>Wobble Town Rescue Crew</h3><p>Every Friday the crew helps someone in Wobble Town, and a mystery knot keeps turning up. Who is tying them? Watch in order!</p><ol></ol><h3>Songs</h3><ul><li><a href="https://www.youtube.com/watch?v=O6t5YRpxV4g" target="_blank" rel="noopener">Big Tom's Tasty Morning Mix</a></li><li><a href="https://www.youtube.com/watch?v=dH3qv6Fz60w" target="_blank" rel="noopener">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Ny1HU6Z0jtk" target="_blank" rel="noopener">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=t1vUrQsjlvI" target="_blank" rel="noopener">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=-ytxK56r62A" target="_blank" rel="noopener">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=LEQ7MlkByX8" target="_blank" rel="noopener">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=3wJ2c8BfStg" target="_blank" rel="noopener">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=DzsxuQw3p8Q" target="_blank" rel="noopener">Zuzu's Sky Swim</a></li></ul><h3>Shorts</h3><ul><li><a href="https://www.youtube.com/watch?v=U56f0s_wBjw" target="_blank" rel="noopener">Pip's Big Splash Day</a></li><li><a href="https://www.youtube.com/watch?v=TzFqGktpkzI" target="_blank" rel="noopener">Marmalade's Parisian Day</a></li><li><a href="https://www.youtube.com/watch?v=INZGyprFcrI" target="_blank" rel="noopener">The Sofa Scavenger Shanty</a></li><li><a href="https://www.youtube.com/watch?v=GIYrZ2pEJ_w" target="_blank" rel="noopener">Bramble's Cozy Sunday Stew</a></li><li><a href="https://www.youtube.com/watch?v=Dga81PP4SZY" target="_blank" rel="noopener">Polite Paws and Roar</a></li><li><a href="https://www.youtube.com/watch?v=ZYbr4voJUFg" target="_blank" rel="noopener">Mina's Stardust Count</a></li><li><a href="https://www.youtube.com/watch?v=wjUPsBioOWI" target="_blank" rel="noopener">Zuzu's Sky Swim</a></li><li><a href="https://www.youtube.com/watch?v=_QBNHRAqLg0" target="_blank" rel="noopener">Big Tom's Tasty Morning Mix</a></li></ul><p><a href="https://www.youtube.com/@ToonzAndTales" target="_blank" rel="noopener">Toonz and Tales on YouTube</a></p></div>
 <!--/STATIC-INDEX-->
   <footer>&copy; 2026 Toonz and Tales. All rights reserved. <a href="/copyright/">Copyright and use</a></footer>
@@ -209,6 +220,7 @@
   }
 
   fetch("videos.json",{cache:"no-store"}).then(function(r){return r.json();}).catch(function(){return {musicals:[],songs:[],shorts:[]};}).then(function(data){
+    var fm=(data.musicals||[]).filter(function(m){return m.featured;})[0]||(data.musicals||[])[0]; if(fm){document.getElementById("seriesName").textContent=fm.name; document.getElementById("seriesSub").textContent=fm.subtitle||"The Musical Series";}
     var host=document.getElementById("musicals"); var st=document.getElementById("static-index"); if(st) st.remove();
     (data.musicals||[]).forEach(function(m){ renderMusical(m,host); });
     songLibrary(data.songs||[]);
