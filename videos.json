@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T00:28:59.738Z",
+  "updated": "2026-11-26T02:10:20.200Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -121,6 +121,13 @@
           "title": "Who Ties the Knots?",
           "id": "IuHzzAuGcpc",
           "at": "2027-01-22T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T01:57:59.614Z",
+          "n": 10,
+          "title": "The Welcome Party",
+          "id": "DpkogDtFCg0",
+          "at": "2027-01-29T06:00:00.000Z"
         }
       ]
     }
