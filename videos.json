@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T23:11:28.336Z",
+  "updated": "2026-11-26T00:28:59.738Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -114,6 +114,13 @@
           "title": "The Big Storm Dash",
           "id": "PeYBXAt1AbM",
           "at": "2027-01-15T06:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T00:21:14.326Z",
+          "n": 9,
+          "title": "Who Ties the Knots?",
+          "id": "IuHzzAuGcpc",
+          "at": "2027-01-22T06:00:00.000Z"
         }
       ]
     }
