@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T04:48:39.008Z",
+  "updated": "2026-11-26T07:00:07.096Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -193,6 +193,13 @@
           "from": 1,
           "look": "a peach-pink fish with mint-green polka dots",
           "role": "bubbly backing singer who spots the shells"
+        },
+        {
+          "name": "Tansy",
+          "image": "tansy-seahorse",
+          "from": 9,
+          "look": "a tiny shy mint-green seahorse with a curly tail",
+          "role": "the shy newcomer who leaves the musical shells"
         }
       ],
       "featured": false,
