@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T02:10:20.200Z",
+  "updated": "2026-11-26T04:48:39.008Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -58,6 +58,7 @@
       ],
       "featured": true,
       "subtitle": "The Musical Series",
+      "scheduleText": "A new episode every Friday at 5 pm Melbourne time",
       "episodes": [
         {
           "date": "2026-11-25T05:24:04.657Z",
@@ -129,7 +130,87 @@
           "id": "DpkogDtFCg0",
           "at": "2027-01-29T06:00:00.000Z"
         }
+      ],
+      "schedule": [
+        "2026-11-27T06:00:00.000Z",
+        "2026-12-04T06:00:00.000Z",
+        "2026-12-11T06:00:00.000Z",
+        "2026-12-18T06:00:00.000Z",
+        "2026-12-25T06:00:00.000Z",
+        "2027-01-01T06:00:00.000Z",
+        "2027-01-08T06:00:00.000Z",
+        "2027-01-15T06:00:00.000Z",
+        "2027-01-22T06:00:00.000Z",
+        "2027-01-29T06:00:00.000Z"
       ]
+    },
+    {
+      "slug": "coral-cove",
+      "name": "Coral Cove Crew",
+      "blurb": "A little reef band sings its way through ocean adventures, and someone keeps leaving shiny musical shells. Who is it? Watch in order!",
+      "keyPattern": "^d+-coral-cove-ep(d+)$",
+      "firstRelease": null,
+      "intervalDays": 7,
+      "titlePrefix": "Coral Cove Crew, Ep d+:s*",
+      "planned": [
+        "The Shiny Shell",
+        "Sockie's Lost Socks",
+        "The Sleepy Whale Lullaby",
+        "Bubble Trouble",
+        "Mossy's Slow Race",
+        "The Kelp Forest Echo",
+        "Tilly Comes to Visit",
+        "The Stormy Sea Song",
+        "Who Leaves the Shells?",
+        "The Great Reef Concert"
+      ],
+      "groupImage": "coral-cove-crew",
+      "cast": [
+        {
+          "name": "Zinnia",
+          "image": "zinnia-dolphin",
+          "from": 1,
+          "look": "a soft lilac dolphin with a star-shaped freckle",
+          "role": "the leader and lead singer"
+        },
+        {
+          "name": "Sockie",
+          "image": "sockie-octo",
+          "from": 1,
+          "look": "a happy orange octopus with colourful striped socks",
+          "role": "the drummer, with eight arms for eight drums"
+        },
+        {
+          "name": "Mossy",
+          "image": "mossy-shell",
+          "from": 1,
+          "look": "a gentle green sea turtle with a swirly shell",
+          "role": "slow, wise and plays the deep bass notes"
+        },
+        {
+          "name": "Dapple",
+          "image": "dapple-fin",
+          "from": 1,
+          "look": "a peach-pink fish with mint-green polka dots",
+          "role": "bubbly backing singer who spots the shells"
+        }
+      ],
+      "featured": false,
+      "subtitle": "The Musical Series",
+      "episodes": [],
+      "schedule": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "scheduleText": "Coming soon"
     }
   ],
   "songs": [
