@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T11:25:10.279Z",
+  "updated": "2026-11-27T11:34:40.701Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -148,10 +148,10 @@
       "slug": "coral-cove",
       "name": "Coral Cove Crew",
       "blurb": "A little reef band sings its way through ocean adventures, and someone keeps leaving shiny musical shells. Who is it? Watch in order!",
-      "keyPattern": "^d+-coral-cove-ep(d+)$",
-      "firstRelease": null,
-      "intervalDays": 7,
-      "titlePrefix": "Coral Cove Crew, Ep d+:s*",
+      "keyPattern": "^\\d+-coral-cove-ep(\\d+)$",
+      "firstRelease": "2026-11-27T08:00:00Z",
+      "intervalDays": 0,
+      "titlePrefix": "Coral Cove Crew, Ep \\d+:\\s*",
       "planned": [
         "The Shiny Shell",
         "Sockie's Lost Socks",
@@ -204,20 +204,91 @@
       ],
       "featured": false,
       "subtitle": "The Musical Series",
-      "episodes": [],
-      "schedule": [
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null,
-        null
+      "scheduleText": "All 10 episodes are out now",
+      "episodes": [
+        {
+          "date": "2026-11-26T05:55:01.736Z",
+          "n": 1,
+          "title": "The Shiny Shell",
+          "id": "Fs_ZXNLPNmo",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T07:20:31.857Z",
+          "n": 2,
+          "title": "Sockie's Lost Socks",
+          "id": "fFOhlFu6A7g",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-27T00:54:51.200Z",
+          "n": 3,
+          "title": "The Sleepy Whale Lullaby",
+          "id": "bML307P9cXs",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T10:18:10.450Z",
+          "n": 4,
+          "title": "Bubble Trouble",
+          "id": "9LSqRh8Xf_M",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-27T02:21:45.336Z",
+          "n": 5,
+          "title": "Mossy's Slow Race",
+          "id": "Mb8L5OPQTbo",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T11:48:39.787Z",
+          "n": 6,
+          "title": "The Kelp Forest Echo",
+          "id": "kY9aLu0kCXI",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-27T03:45:58.244Z",
+          "n": 7,
+          "title": "Tilly Comes to Visit",
+          "id": "qDb-1V7A5To",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-26T13:21:00.159Z",
+          "n": 8,
+          "title": "The Stormy Sea Song",
+          "id": "YvOQ7xKvDCI",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-27T05:21:27.855Z",
+          "n": 9,
+          "title": "Who Leaves the Shells?",
+          "id": "bkOdQZMfegM",
+          "at": "2026-11-27T08:00:00.000Z"
+        },
+        {
+          "date": "2026-11-27T06:46:31.660Z",
+          "n": 10,
+          "title": "The Great Reef Concert",
+          "id": "_S3hdi95l1U",
+          "at": "2026-11-27T08:00:00.000Z"
+        }
       ],
-      "scheduleText": "Coming soon"
+      "schedule": [
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z",
+        "2026-11-27T08:00:00.000Z"
+      ]
     }
   ],
   "songs": [
