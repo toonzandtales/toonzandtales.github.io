@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T10:46:11.100Z",
+  "updated": "2026-11-28T11:47:37.684Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -34,19 +34,22 @@
           "name": "Tammy",
           "from": 1,
           "look": "a cheeky little brown monkey with big round ears and a curly tail",
-          "role": "quick and bendy, Tammy swings and stretches to reach whatever is stuck"
+          "role": "quick and bendy, Tammy swings and stretches to reach whatever is stuck",
+          "image": "wobble-tammy"
         },
         {
           "name": "Biscuit",
           "from": 1,
           "look": "a little pink bunny with long floppy ears",
-          "role": "Biscuit hops fast and spots the clues, like the mystery knots"
+          "role": "Biscuit hops fast and spots the clues, like the mystery knots",
+          "image": "wobble-biscuit"
         },
         {
           "name": "Duckie",
           "from": 1,
           "look": "a cheerful yellow duckling with a small orange beak",
-          "role": "Duckie paddles, flaps and zooms ahead to help first"
+          "role": "Duckie paddles, flaps and zooms ahead to help first",
+          "image": "wobble-duckie"
         },
         {
           "name": "Tilly the Tugboat",
