@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T07:00:04.806Z",
+  "updated": "2026-11-28T10:38:54.401Z",
   "musicals": [
     {
       "slug": "wobble-town",
@@ -433,6 +433,12 @@
       "key": "10-sir-sniffles-the-elephant"
     },
     {
+      "title": "Snowy Christmas Up North!",
+      "id": "XynFuMLat4A",
+      "date": "2026-11-24T23:09:25.075Z",
+      "key": "26-snowy-christmas-up-north"
+    },
+    {
       "title": "story-1795506126268-3a0r604z4",
       "id": "WEVUctSM5xk",
       "date": "2026-11-24T10:23:06.870Z",
@@ -517,6 +523,10 @@
     {
       "title": "Fizzle's Wobble Wobble Dance!",
       "id": "jQXJ9HHXlmc"
+    },
+    {
+      "title": "Snowy Christmas Up North!",
+      "id": "tA7GkIdADXE"
     }
   ]
 }
